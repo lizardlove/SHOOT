@@ -1,0 +1,97 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #222;
+}
+
+canvas {
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+#gameOver {
+    display: none;
+    margin-top: 200px;
+}
+#gameStart {
+    display: block;
+}
+#gameStart, .box {
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    width: 350px;
+    padding: 20px;
+    border-radius: 5px;
+    z-index: 1;
+    text-align: center;
+    background-color: white;
+    box-sizing: border-box;
+}
+p {
+    padding: 20px;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+#nickname {
+    width: 90%;
+    text-align: center;
+    padding: 10px;
+    border: solid 1px #dcdcdc;
+    transition: box-shadow 0.3s, border 0.3s;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    outline: none;
+}
+#scores {
+    width； 100%;
+    text-align: center;
+    padding: 10px;
+    transition: box-shadow 0.3s, border 0.3s;
+    margin-bottom: 10px;
+}
+#nickname:focus {
+    border: solid 1px #CCCCCC;
+    box-shadow: 0 0 3px 1px #DDDDDD;
+}
+.play {
+    position: relative;
+    margin: auto;
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    font-size: large;
+    color: white;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+    background: #0f88eb;
+    border: 0;
+    border-bottom: 2px solid #0aaaeb;
+    cursor: pointer;
+    box-shadow: inset 0 -2px #0aaaeb;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+#gameStart h3 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+ul, li {
+    outline: none;
+}
+#gameStart ul {
+    margin: 10px;
+    padding: 10px;
+    font-size: 12px;
+}
+#gameStart ul li {
+    margin-top: 5px;
+}

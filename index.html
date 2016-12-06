@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="css/game.css">
+  </head>
+  <body>
+    <div id="gameOver" class="box">
+      <p>GAME OVER</p>
+      <div id="scores">
+        <span id="SC"></span>
+      </div>
+      <button id="playAgain" class="play">Play Again</button>
+    </div>
+    <div id="gameStart">
+      <p>昵称</p>
+      <input type="text" tabindex="0" autofocus placeholder="请输入你的昵称" id="nickname" maxlength="25" />
+      <button id="playStart" class="play">PLAY</button>
+      <div id="instructions">
+         <h3>游戏须知</h3>
+         <ul>
+           <li>WASD进行移动，IJKL改变攻击方向，空格射击</li>
+           <li>小兵，可消灭，只能单方向攻击</li>
+           <li>boss，不可消灭，全方位攻击</li>
+           <li>每消灭10个敌人，可获得buff一段时间</li>
+           <li>坚持下去，你一定会突出重围</li>
+         </ul>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/resources.js"></script>
+    <script type="text/javascript" src="js/input.js"></script>
+    <script type="text/javascript" src="js/sprite.js"></script>
+    <script type="text/javascript" src="js/game.js"></script>
+  </body>
+</html>
